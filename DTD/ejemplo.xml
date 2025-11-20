@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fifa SYSTEM "ejemplo.dtd">
+<fifa>
+    <equipos>
+      <equipo>Madrid</equipo>
+      <equipo>Betis</equipo>
+    
+    </equipos>
+    <competiciones>
+    
+    
+    </competiciones>
+    <ultimate></ultimate>
+</fifa>

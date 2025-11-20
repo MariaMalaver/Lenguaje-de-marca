@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+      <salas>
+        <sala>
+          <numero-sala>1</numero-sala>
+          <aforo>120</aforo>
+          <numero-fila>10</numero-fila>
+          <numero-asientos-minusvalidos>4</numero-asientos-minusvalidos>
+          <metros ud="m²">250</metros>
+          <tipo-proyector>Digital</tipo-proyector>
+          <tipo-sonido>Dolby Atmos</tipo-sonido>
+        </sala>
+        
+        <sala>
+          <numero-sala>2</numero-sala>
+          <aforo>80</aforo>
+          <numero-fila>8</numero-fila>
+          <numero-asientos-minusvalidos>2</numero-asientos-minusvalidos>
+          <metros ud="m²">180</metros>
+          <tipo-proyector>Analógico</tipo-proyector>
+          <tipo-sonido>Surround 7.1</tipo-sonido>
+        </sala>
+        
+        <sala>
+          <numero-sala>3</numero-sala>
+          <aforo>150</aforo>
+          <numero-fila>12</numero-fila>
+          <numero-asientos-minusvalidos>3</numero-asientos-minusvalidos>
+          <metros ud="m²">300</metros>
+          <tipo-proyector>Digital</tipo-proyector>
+          <tipo-sonido>Dolby Digital</tipo-sonido>
+        </sala>
+        
+        <sala>
+          <numero-sala>4</numero-sala>
+          <aforo>200</aforo>
+          <numero-fila>15</numero-fila>
+          <numero-asientos-minusvalidos>5</numero-asientos-minusvalidos>
+          <metros ud="m²">350</metros>
+          <tipo-proyector>Digital</tipo-proyector>
+          <tipo-sonido>Dolby Digital</tipo-sonido>
+        </sala>
+      </salas>
+      
+      <cartelera>
+        <pelicula>
+          <titulo>La Aventura del Fin del Mundo</titulo>
+          <duracion unidad="minutos">120</duracion>
+          <direccion>Alejadro Gutiérrez</direccion>
+          <horas-pase>15:00, 18:00, 21:00</horas-pase>
+          <actores>
+            <actor>Juan Martínez</actor>
+            <actor>Clara Rodríguez</actor>
+            <actor>Samuel López</actor>
+          </actores>
+        </pelicula>
+        
+        <pelicula>
+          <titulo>El Secreto de la Montaña</titulo>
+          <duracion unidad="minutos">140</duracion>
+          <direccion>Marta Herrera</direccion>
+          <horas-pase>14:30, 17:30, 20:30</horas-pase>
+          <actores>
+            <actor>Lorena Díaz</actor>
+            <actor>Carlos Ortega</actor>
+            <actor>José Rivera</actor>
+          </actores>
+        </pelicula>
+        
+        <pelicula>
+          <titulo>Un Viaje en el tiempo</titulo>
+          <duracion unidad="minutos">110</duracion>
+          <direccion>Laura Peréz</direccion>
+          <horas-pase>16:00, 19:00, 22:00</horas-pase>
+          <actores>
+            <actor>María Sánchez</actor>
+            <actor>Diego Torress</actor>
+            <actor>Lucía Jiménez</actor>
+          </actores>
+        </pelicula>
+        
+        <pelicula>
+          <titulo>La Sombra de la Verdad</titulo>
+          <duracion unidad="minutos">125</duracion>
+          <direccion>Fernando Ruiz</direccion>
+          <horas-pase>13:00, 16:30, 19:30</horas-pase>
+          <actores>
+            <actor>Andrea Fernández</actor>
+            <actor>Daniel Rojas</actor>
+            <actor>Isabel Núñez</actor>
+          </actores>
+        </pelicula>
+        
+      </cartelera>
+      
+      <trabajadores>
+      
+        <trabajador>
+          <nombre-apellidos>Manuel García López</nombre-apellidos>
+          <dni>12345678X</dni>
+          <direccion>Calle Mayor, 5, Madrid</direccion>
+          <puesto>Gerente</puesto>
+          <telefono fijo="no">600123456</telefono>
+        </trabajador>
+        
+        <trabajador>
+          <nombre-apellidos>Laura Sánchez Martín</nombre-apellidos>
+          <dni>87654321Z</dni>
+          <direccion>Avenida del Parque, 12, Sevilla</direccion>
+          <puesto>Jefa de sala</puesto>
+          <telefono fijo="si">600987654</telefono>
+        </trabajador>
+        
+        <trabajador>
+          <nombre-apellidos>Pedro Rodríguez Jiménez</nombre-apellidos>
+          <dni>45678912Y</dni>
+          <direccion>Calle del Sol, 22, Valencia</direccion>
+          <puesto>Técnico de proyección</puesto>
+          <telefono fijo="si">600654321</telefono>
+        </trabajador>
+        
+        <trabajador>
+          <nombre-apellidos>Ana López Díaz</nombre-apellidos>
+          <dni>23456789W</dni>
+          <direccion>Plaza de la Luna, 7, Barcelona</direccion>
+          <puesto>Encargada de taquilla</puesto>
+          <telefono fijo="no">600321987</telefono>
+        </trabajador>
+        
+      </trabajadores>
+</cinema>

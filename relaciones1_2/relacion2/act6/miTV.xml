@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "tv.dtd">
+<TVSCHEDULE NAME="nombre">
+    <CHANNEL CHAN="canal">
+      <BANNER></BANNER>
+      <DAY>
+        <DATE></DATE>
+        <HOLIDAY></HOLIDAY>
+        <PROGRAMSLOT VTR="dato1">
+          <TIME></TIME>
+          <TITLE></TITLE>
+          <DESCRIPTION></DESCRIPTION>
+        </PROGRAMSLOT>
+        <PROGRAMSLOT VTR="dato2">
+          <TIME></TIME>
+          <TITLE RATING="clasificacion" LANGUAGE="idioma"></TITLE>
+        </PROGRAMSLOT>
+        <HOLIDAY></HOLIDAY>
+      </DAY>
+      <DAY>
+        <DATE></DATE>
+        <HOLIDAY></HOLIDAY>
+        <PROGRAMSLOT VTR="dato3">
+          <TIME></TIME>
+          <TITLE></TITLE>
+          <DESCRIPTION></DESCRIPTION>
+        </PROGRAMSLOT>
+        <PROGRAMSLOT VTR="dato4">
+          <TIME></TIME>
+          <TITLE RATING="clasificacion2" LANGUAGE="idioma2"></TITLE>
+        </PROGRAMSLOT>
+        <HOLIDAY></HOLIDAY>
+      </DAY>
+    </CHANNEL>
+</TVSCHEDULE>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <escuela>
+    <curso  id="0985">
+    
+      <nombre_curso>Matemáticas</nombre_curso>
+      <duracion ud="h">1h</duracion>
+      <descripcion></descripcion>
+      <becas />
+      <nobecas />
+      <aula informatica="si">
+      
+        <n-planta></n-planta>
+        <n-aula></n-aula>
+
+      </aula>
+      <precio>
+    
+        <p-antiguos-alumnos></p-antiguos-alumnos>
+        <p-nuevos-alumnos></p-nuevos-alumnos>
+      
+      </precio>
+      <semanas horario="mañana">
+      
+        <inicio fecha="dia"></inicio>
+        <inicio fecha="mes"></inicio>
+        <inicio fecha="año"></inicio>
+        <fin fecha="dia"></fin>
+        <fin fecha="mes"></fin>
+        <fin fecha="año"></fin>
+        
+      </semanas>
+      <profesores>
+      
+        <profesor tipo="practica">
+          <llamado nombre="pepe" apellidos="pepito"></llamado>
+        </profesor>
+        <profesor tipo="teoria">
+            <llamado nombre="pepe" apellidos="pepito"></llamado>
+          </profesor>
+      </profesores>
+      <temas>
+        <tema numero="6">
+          <titulo-tema></titulo-tema>
+          <resumen-tema></resumen-tema>
+          <palabras-clave></palabras-clave>
+          <ejercicios>
+            <practico>
+              <ejercicio  cantidad="3"></ejercicio>
+              <duracion ud="min">30</duracion>
+            </practico>
+            <teorico>
+              <ejercicio  cantidad="5"></ejercicio>
+              <duracion ud="min">60</duracion>
+            </teorico>
+          </ejercicios>
+        </tema>
+      </temas>
+      <temas>
+        <tema numero="8">
+          <titulo-tema></titulo-tema>
+          <resumen-tema></resumen-tema>
+          <palabras-clave></palabras-clave>
+          <ejercicios>
+            <practico>
+              <ejercicio  cantidad="5"></ejercicio>
+              <duracion ud="min">60</duracion>
+            </practico>
+            <teorico>
+              <ejercicio  cantidad="9"></ejercicio>
+              <duracion ud="min">300</duracion>
+            </teorico>
+          </ejercicios>
+        </tema>
+      </temas>
+    </curso>
+  
+  
+  
+  
+  
+  </escuela>

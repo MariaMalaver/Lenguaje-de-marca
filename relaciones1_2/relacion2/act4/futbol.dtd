@@ -1,0 +1,35 @@
+<!ELEMENT competicion (equipos+)>
+<!ATTLIST competicion anyo CDATA #IMPLIED>
+
+<!ELEMENT equipos (nombre_equipo,nacionalidad,presupuesto?,(normal|doble),sweepers,pista,fecha_fundacion)>
+<!ELEMENT nombre_equipo (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT presupuesto (#PCDATA)>
+
+<!ELEMENT normal EMPTY>
+<!ELEMENT doble EMPTY>
+
+<!ELEMENT sweepers (sweeper+)>
+<!ELEMENT sweeper (nombre,apellidos,edad,sexo)>
+<!ATTLIST sweeper dni CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+
+<!ELEMENT pista (nombre_pista,asientos,direccion)>
+<!ELEMENT nombre_pista (#PCDATA)>
+<!ELEMENT asientos (#PCDATA)>
+
+<!ELEMENT direccion (calle,numero,poblacion)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT poblacion (cp?,provincia)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+
+<!ELEMENT fecha_fundacion (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>

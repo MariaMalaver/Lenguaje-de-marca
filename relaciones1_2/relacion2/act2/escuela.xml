@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aula SYSTEM "escuela.dtd">
+<aula>
+    <alumno dni="D54168465">
+      <nombre></nombre>
+      <apellidos></apellidos>
+      <sexo></sexo>
+      <fecha_nacimiento zodiaco="leo">
+        <dia></dia>
+        <mes></mes>
+        <agno></agno>
+      </fecha_nacimiento>
+      <direccion></direccion>
+      <telefono tipo="fijo"></telefono>
+      <nota_ciclo></nota_ciclo>
+    </alumno>
+    <alumno dni="R87653456">
+      <nombre></nombre>
+      <apellidos></apellidos>
+      <sexo></sexo>
+      <fecha_nacimiento zodiaco="leo">
+        <dia></dia>
+        <mes></mes>
+        <agno></agno>
+      </fecha_nacimiento>
+      <direccion></direccion>
+      <telefono tipo="fijo"></telefono>
+      <nota_ciclo></nota_ciclo>
+    </alumno>
+</aula>

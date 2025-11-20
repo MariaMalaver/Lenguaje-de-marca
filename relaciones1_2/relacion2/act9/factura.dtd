@@ -1,0 +1,46 @@
+<!ELEMENT facturas (factura*)>
+<!ELEMENT factura (empresa,pedido,fecha,pago,clientes,datos_factura,base_imponible,total_I.V.A,cuota_I.V.A,total_factura)>
+<!ATTLIST factura id ID #REQUIRED>
+
+<!ELEMENT empresa (nombre,direccion,ciudad,cp,cif,telefono,fax)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+
+<!ELEMENT pedido (#PCDATA)>
+
+<!ELEMENT fecha (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+
+<!ELEMENT pago (#PCDATA)>
+<!ATTLIST pago forma (efectivo| tarjeta) #IMPLIED>
+
+<!ELEMENT clientes (nombre_cliente,direccion_cliente,poblacion_cliente,cp_cliente,provincia_cliente)>
+<!ATTLIST clientes num_cliente ID #REQUIRED>
+<!ELEMENT nombre_cliente (#PCDATA)>
+<!ELEMENT direccion_cliente (#PCDATA)>
+<!ELEMENT poblacion_cliente (#PCDATA)>
+<!ELEMENT cp_cliente (#PCDATA)>
+<!ELEMENT provincia_cliente (#PCDATA)>
+
+<!ELEMENT datos_factura (productos)>
+<!ELEMENT productos (producto+)>
+
+<!ELEMENT producto (ref,descripcion,cant,precio,I.V.A,importe)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cant (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT I.V.A (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+
+<!ELEMENT base_imponible (#PCDATA)>
+<!ELEMENT total_I.V.A (#PCDATA)>
+<!ELEMENT cuota_I.V.A (#PCDATA)>
+<!ELEMENT total_factura (#PCDATA)>

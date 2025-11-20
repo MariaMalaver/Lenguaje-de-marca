@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+
+      <alumno>
+      
+        <nombre>María</nombre>
+        <apellidos>Malaver González</apellidos>
+        <direccion>Tras de la Huerta</direccion>
+        <ciclo>DAW</ciclo>
+        <curso>1º</curso>
+        
+      </alumno>
+      
+      <alumno>
+      
+        <nombre>María</nombre>
+        <apellidos>Malaver González</apellidos>
+        <direccion>Tras de la Huerta</direccion>
+        <ciclo>DAW</ciclo>
+        <curso>1º</curso>
+        
+      </alumno>
+
+</alumnos>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escuela SYSTEM "colegio.dtd">
+<escuela>
+    <cursos>
+      <curso identificador="a1">
+        <nombre_curso></nombre_curso>
+        <duracion></duracion>
+        <descripcion></descripcion>
+        <becas />
+        <aula informatica="si">
+          <num_planta></num_planta>
+          <num_aula></num_aula>
+        </aula>
+        <precio>
+          <antiguos_alumnos></antiguos_alumnos>
+          <nuevos_alumnos></nuevos_alumnos>
+        </precio>
+        <semanas>
+          <semana horario="manana">
+            <inicio>
+              <dia>01</dia>
+              <mes>01</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>31</dia>
+              <mes>01</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+          <semana horario="tarde">
+            <inicio>
+              <dia>01</dia>
+              <mes>02</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>28</dia>
+              <mes>02</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+          <semana horario="tarde">
+            <inicio>
+              <dia>01</dia>
+              <mes>03</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>31</dia>
+              <mes>03</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+        </semanas>
+        <profesores>
+          <profesor tipo="practica">
+            <nombre></nombre>
+            <apellidos></apellidos>
+          </profesor>
+          <profesor tipo="teoria">
+            <nombre></nombre>
+            <apellidos></apellidos>
+          </profesor>
+        </profesores>
+        <temas>
+          <tema numero="t1">
+            <titulo></titulo>
+            <resumen></resumen>
+            <palabras_clave></palabras_clave>
+            <ejercicios>
+              <practicos>
+                <num_ejercicios_practicos></num_ejercicios_practicos>
+                <duracion_ejercicio_practico></duracion_ejercicio_practico>
+              </practicos>
+              <teoricos>
+                <num_ejercicios_teoricos></num_ejercicios_teoricos>
+                <duracion_ejercicio_teorico></duracion_ejercicio_teorico>
+              </teoricos>
+            </ejercicios>
+          </tema>
+          <tema numero="t2">
+            <titulo></titulo>
+            <resumen></resumen>
+            <palabras_clave></palabras_clave>
+            <ejercicios>
+              <practicos>
+                <num_ejercicios_practicos></num_ejercicios_practicos>
+                <duracion_ejercicio_practico></duracion_ejercicio_practico>
+              </practicos>
+              <teoricos>
+                <num_ejercicios_teoricos></num_ejercicios_teoricos>
+                <duracion_ejercicio_teorico></duracion_ejercicio_teorico>
+              </teoricos>
+            </ejercicios>
+          </tema>
+        </temas>
+      </curso>
+      <curso identificador="a2">
+        <nombre_curso></nombre_curso>
+        <duracion></duracion>
+        <descripcion></descripcion>
+        <nobecas />
+        <aula informatica="no">
+          <num_planta></num_planta>
+          <num_aula></num_aula>
+        </aula>
+        <precio>
+          <antiguos_alumnos></antiguos_alumnos>
+          <nuevos_alumnos></nuevos_alumnos>
+        </precio>
+        <semanas>
+          <semana horario="manana">
+            <inicio>
+              <dia>01</dia>
+              <mes>01</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>31</dia>
+              <mes>01</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+          <semana horario="tarde">
+            <inicio>
+              <dia>01</dia>
+              <mes>02</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>28</dia>
+              <mes>02</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+          <semana horario="tarde">
+            <inicio>
+              <dia>01</dia>
+              <mes>03</mes>
+              <agno>2025</agno>
+            </inicio>
+            <fin>
+              <dia>31</dia>
+              <mes>03</mes>
+              <agno>2025</agno>
+            </fin>
+          </semana>
+        </semanas>
+        <profesores>
+          <profesor tipo="practica">
+            <nombre></nombre>
+            <apellidos></apellidos>
+          </profesor>
+          <profesor tipo="teoria">
+            <nombre></nombre>
+            <apellidos></apellidos>
+          </profesor>
+        </profesores>
+        <temas>
+          <tema numero="t3">
+            <titulo></titulo>
+            <resumen></resumen>
+            <palabras_clave></palabras_clave>
+            <ejercicios>
+              <practicos>
+                <num_ejercicios_practicos></num_ejercicios_practicos>
+                <duracion_ejercicio_practico></duracion_ejercicio_practico>
+              </practicos>
+              <teoricos>
+                <num_ejercicios_teoricos></num_ejercicios_teoricos>
+                <duracion_ejercicio_teorico></duracion_ejercicio_teorico>
+              </teoricos>
+            </ejercicios>
+          </tema>
+          <tema numero="t4">
+            <titulo></titulo>
+            <resumen></resumen>
+            <palabras_clave></palabras_clave>
+            <ejercicios>
+              <practicos>
+                <num_ejercicios_practicos></num_ejercicios_practicos>
+                <duracion_ejercicio_practico></duracion_ejercicio_practico>
+              </practicos>
+              <teoricos>
+                <num_ejercicios_teoricos></num_ejercicios_teoricos>
+                <duracion_ejercicio_teorico></duracion_ejercicio_teorico>
+              </teoricos>
+            </ejercicios>
+          </tema>
+        </temas>
+      </curso>
+    </cursos>
+</escuela>

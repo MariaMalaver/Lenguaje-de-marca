@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+
+    <pelicula>
+    
+      <año estreno="2040"></año>
+      <titulo nombre="la mesa"></titulo>
+      <nacionalidad></nacionalidad>
+      <duración>
+      
+        <horas></horas>
+        <minutos></minutos>
+        
+      </duración>
+      <director></director>
+      <actores>
+      
+        <actor tipo="principal">
+        
+         <nombre></nombre>
+         <apellidos></apellidos>
+         
+        </actor>
+        <actor tipo="reparto">
+        
+         <nombre></nombre>
+         <apellidos></apellidos>
+         
+        </actor>
+      </actores>
+      <descripcion></descripcion>
+      
+    </pelicula>
+    <pelicula>
+    
+      <año estreno="2040"></año>
+      <titulo nombre="el diario"></titulo>
+      <nacionalidad></nacionalidad>
+      <duración>
+      
+        <horas></horas>
+        <minutos></minutos>
+        
+      </duración>
+      <director></director>
+      <actores>
+      
+        <actor tipo="principal">
+        
+         <nombre></nombre>
+         <apellidos></apellidos>
+         
+        </actor>
+        <actor tipo="reparto">
+        
+         <nombre></nombre>
+         <apellidos></apellidos>
+         
+        </actor>
+      </actores>
+      <descripcion></descripcion>
+      
+    </pelicula>
+    
+</cartelera>

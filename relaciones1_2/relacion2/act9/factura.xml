@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "factura.dtd">
+<facturas>
+    <factura id="n999">
+      <empresa>
+        <nombre></nombre>
+        <direccion></direccion>
+        <ciudad></ciudad>
+        <cp></cp>
+        <cif></cif>
+        <telefono></telefono>
+        <fax></fax>
+      </empresa>
+        
+      <pedido></pedido>
+      <fecha>
+        <dia></dia>
+        <mes></mes>
+        <anyo></anyo>
+      </fecha>
+      <pago forma="efectivo"/>
+        
+      <clientes num_cliente="n879">
+        <nombre_cliente></nombre_cliente>
+        <direccion_cliente></direccion_cliente>
+        <poblacion_cliente></poblacion_cliente>
+        <cp_cliente></cp_cliente>
+        <provincia_cliente></provincia_cliente>
+      </clientes>
+        
+      <datos_factura>
+        <productos>
+          <producto>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <I.V.A></I.V.A>
+            <importe></importe>
+          </producto>
+          <producto>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <I.V.A></I.V.A>
+            <importe></importe>
+          </producto>
+          <producto>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <I.V.A></I.V.A>
+            <importe></importe>
+          </producto>
+          <producto>
+            <ref></ref>
+            <descripcion></descripcion>
+            <cant></cant>
+            <precio></precio>
+            <I.V.A></I.V.A>
+            <importe></importe>
+          </producto>
+        </productos>
+      </datos_factura>
+      <base_imponible></base_imponible>
+      <total_I.V.A></total_I.V.A>
+      <cuota_I.V.A></cuota_I.V.A>
+      <total_factura></total_factura>
+    </factura>
+</facturas>

@@ -1,0 +1,20 @@
+<!ELEMENT cartelera (pelicula+)>
+
+<!ELEMENT pelicula (titulo, nacionalidad, duracion, director, actores, descripcion)>
+<!ATTLIST pelicula estreno CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+
+<!ELEMENT actores (actor+)>
+
+<!ELEMENT actor (nombre, apellidos)>
+<!ATTLIST actor tipo (principal | reparto) #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT descripcion (#PCDATA)>
+

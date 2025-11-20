@@ -1,0 +1,6 @@
+<!ELEMENT fifa (equipos, competiciones, ultimate) >
+<!ELEMENT equipos (equipo+) >
+<!ELEMENT equipo (#PCDATA) >
+<!ELEMENT competiciones (#PCDATA) > <!--#pcdata es para decir que dentro hay datos o va a haber-->
+<!ELEMENT ultimate EMPTY > <!--empty para terminar--> 
+<!--any es lo mismo pero es para decir qeu si ya esta conocido un elemento el cual es su hijo-->

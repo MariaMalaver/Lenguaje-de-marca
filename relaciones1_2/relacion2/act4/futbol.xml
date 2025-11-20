@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE competicion SYSTEM "futbol.dtd">
+<competicion anyo="2025">
+    <equipos>
+      <nombre_equipo></nombre_equipo>
+      <nacionalidad></nacionalidad>
+      <presupuesto></presupuesto>
+      <normal/>
+      <sweepers>
+        <sweeper dni="M43568723">
+          <nombre></nombre>
+          <apellidos></apellidos>
+          <edad></edad>
+          <sexo></sexo>
+        </sweeper>
+        <sweeper dni="L93569723">
+          <nombre></nombre>
+          <apellidos></apellidos>
+          <edad></edad>
+          <sexo></sexo>
+        </sweeper>
+      </sweepers>
+      <pista>
+        <nombre_pista></nombre_pista>
+        <asientos></asientos>
+        <direccion>
+          <calle></calle>
+          <numero></numero>
+          <poblacion>
+            <cp></cp>
+            <provincia></provincia>
+          </poblacion>
+        </direccion>
+      </pista>
+      <fecha_fundacion>
+        <dia></dia>
+        <mes></mes>
+        <anyo></anyo>
+      </fecha_fundacion>
+    </equipos>
+    <!--EQUIPO 2-->
+    <equipos>
+      <nombre_equipo></nombre_equipo>
+      <nacionalidad></nacionalidad>
+      <presupuesto></presupuesto>
+      <normal/>
+      <sweepers>
+        <sweeper dni="M43558723">
+          <nombre></nombre>
+          <apellidos></apellidos>
+          <edad></edad>
+          <sexo></sexo>
+        </sweeper>
+        <sweeper dni="L94569723">
+          <nombre></nombre>
+          <apellidos></apellidos>
+          <edad></edad>
+          <sexo></sexo>
+        </sweeper>
+      </sweepers>
+      <pista>
+        <nombre_pista></nombre_pista>
+        <asientos></asientos>
+        <direccion>
+          <calle></calle>
+          <numero></numero>
+          <poblacion>
+            <cp></cp>
+            <provincia></provincia>
+          </poblacion>
+        </direccion>
+      </pista>
+      <fecha_fundacion>
+        <dia></dia>
+        <mes></mes>
+        <anyo></anyo>
+      </fecha_fundacion>
+    </equipos>
+</competicion>

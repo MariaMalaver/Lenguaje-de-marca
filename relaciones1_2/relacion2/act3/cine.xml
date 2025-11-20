@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera SYSTEM "cine.dtd">
+<cartelera>
+    <pelicula estreno="2025">
+      <titulo>Pelicula 1</titulo>
+      <nacionalidad></nacionalidad>
+      <duracion></duracion>
+      <director></director>
+      <actores>
+        <actor tipo="principal">
+          <nombre></nombre>
+          <apellidos></apellidos>
+        </actor>
+        <actor tipo="reparto">
+          <nombre></nombre>
+          <apellidos></apellidos>
+        </actor>
+      </actores>
+      <descripcion></descripcion>
+    </pelicula>
+    <pelicula estreno="2027">
+      <titulo>Pelicula 2</titulo>
+      <nacionalidad></nacionalidad>
+      <duracion></duracion>
+      <director></director>
+      <actores>
+        <actor tipo="principal">
+          <nombre></nombre>
+          <apellidos></apellidos>
+        </actor>
+        <actor tipo="reparto">
+          <nombre></nombre>
+          <apellidos></apellidos>
+        </actor>
+      </actores>
+      <descripcion></descripcion>
+    </pelicula>
+</cartelera>

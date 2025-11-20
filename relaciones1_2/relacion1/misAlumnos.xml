@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aula>
+    <alumno>
+    
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+      
+    </alumno>
+    
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+
+    <alumno>
+  
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+
+    </alumno>
+
+    <alumno>
+  
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+    
+    </alumno>
+
+    <alumno>
+    
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+    
+    </alumno>
+
+    <alumno>
+    
+      <numero dni="69686264L"></numero>
+      <nombre-apellidos> Pepito pepote papete</nombre-apellidos>
+      <sexo mujer="M" hombre="H">H</sexo>
+      <fecha-nacimiento>01/10/2002</fecha-nacimiento>
+      <dirección>Calle luna Nº3</dirección>
+      <telefono tipo="fijo" tipos="movil">622484943</telefono>
+      <nota-media>5.5</nota-media>
+
+    </alumno>
+
+</aula>
