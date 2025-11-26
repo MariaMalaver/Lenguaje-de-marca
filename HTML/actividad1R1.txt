@@ -1,0 +1,17 @@
+1. Abre el navegador Mozilla Firefox y accede a la página de la Wikipedia dedicada a HTML.
+    · ¿Cómo puede ver el código HTML de la página actual?
+    · ¿Qué significa "Inspeccionar elemento"?
+Realiza el mismo ejercicio en otros dos navegadores
+
+====== Mozilla Firefox  y Google Chrome ====== 
+
+Ambos navegadores se hacen igual.
+
+· ¿Cómo puede ver el código HTML de la página actual?
+   El código HTML de la página de HTML en wikipedia con el navegador Mozilla Firefox se puede ver de dos formas diferentes:
+        1. clicamos botón derecho en la página y clicamos inspeccionar.
+        2. O también podemos clicar botón derecho en la página y clicamos en ver código fuente de la página.
+
+·¿Qué significa "Inspeccionar elemento"?
+  Inspeccionar elemento significa que es una función de los navegadores web lo cual permite ver y editar temporalmente el código (HTML y CSS) de una página web 
+  para entender su estructura, probar cambios de diseño o diagnosticar problemas, sin modificar el sitio en línea.

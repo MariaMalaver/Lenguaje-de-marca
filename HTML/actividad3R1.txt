@@ -1,0 +1,36 @@
+3. En el siguiente enlace puedes encontrar una guía actualizada de las etiquetas HTML:
+https://www.w3schools.com/tags/default.asp
+· ¿Qué etiquetas no son soportadas por HTML5?
+    Las etiquetas no soportadas por HTML son:
+        · <acronym>
+        · <applet>
+        · <basefont>
+        · <big>
+        · <center>
+        · <dir>
+        · <font>
+        · <frame>
+        · <frameset>
+        · <noframes>
+        · <strike>
+        · <tt>
+· La etiqueta <tr> y <td> ¿Qué atributos propios admite?
+    La etiqueta <tr> los atributos que admite son:
+        onafterprint
+        onbeforeprint
+        onbeforeunload
+        onerror
+        onhashchange
+        onload
+        onmessage
+        onoffline
+        ononline
+        onpagehide
+        onpageshow
+        onpopstate
+        onresize
+        onstorage
+        onunload
+    La etiqueta <td> los atributos que admite son:
+
+· La etiqueta <audio> y <video> ¿Qué navegadores la soportan?
