@@ -32,5 +32,6 @@ https://www.w3schools.com/tags/default.asp
         onstorage
         onunload
     La etiqueta <td> los atributos que admite son:
-
+        
+        
 · La etiqueta <audio> y <video> ¿Qué navegadores la soportan?
