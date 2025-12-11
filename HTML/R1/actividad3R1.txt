@@ -14,24 +14,23 @@ https://www.w3schools.com/tags/default.asp
         · <noframes>
         · <strike>
         · <tt>
+        · <marquee>
 · La etiqueta <tr> y <td> ¿Qué atributos propios admite?
-    La etiqueta <tr> los atributos que admite son:
-        onafterprint
-        onbeforeprint
-        onbeforeunload
-        onerror
-        onhashchange
-        onload
-        onmessage
-        onoffline
-        ononline
-        onpagehide
-        onpageshow
-        onpopstate
-        onresize
-        onstorage
-        onunload
+    La etiqueta <tr> NO tiene atributos específicos propios, estos son los atributos globales:
+        · id
+        · class
+        · style
+        · title
+        · hidden
+        · lang
+        · data*
+        · dir
+        · draggable
+        · tabindex
     La etiqueta <td> los atributos que admite son:
-        
+        · colspan
+        · rowspan
+        · headers 
+        · abbr
         
 · La etiqueta <audio> y <video> ¿Qué navegadores la soportan?
