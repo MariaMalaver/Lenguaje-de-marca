@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Repaso - formularios</title>
+    </head>
+    <body>
+        <form action="registro.php"><!--dentro de action deberia de poner la pagina donde nos llevara al aceptar o enviar etc-->
+            <fieldset> <!--Para tener todo mas organizado y junto-->
+                <!--estos input son tipo TEXT-->
+                <label for="RegistroNombre">Nombre:</label> <!--para poner nombre a lo que vamos a escribir yo me entiendo-->
+                <input type="text" title="Escriba un nombre" name="RegistroNombre" id="RegistroNombre" placeholder="Escribe nombre..."> <!--Donde se escribirá, el title se pone el raton encima y veras-->
+                <br><br>
+                <label for="RegistroApellidos">Apellidos:</label>
+                <input type="text" name="RegistroApellidos" id="RegistroApellidos" placeholder="Apellidos">
+                <br><br><!--este input es tipo PASSWORD-->
+                <label for="RepasoContrasena">Contraseña:</label>
+                <input type="password" name="RepasoContrasena" id="RepasoContrasena">
+                <br><br><!--este input es tipo DATE-->
+                <label for="RepasoNacimiento">Fecha:</label>
+                <input type="date" name="RepasoNacimiento" id="RepasoNacimiento">
+                <br><br><!--este input es tipo EMAIL-->
+                <label for="RepasoEmail">Email:</label>
+                <input type="email" name="RepasoEmail" id="RepasoEmail">
+                <br><br><!--este input es tipo FILE-->
+                <label for="RepasoDocumento">Sube un documento:</label>
+                <input type="file" name="RepasoDocumento" id="RepasoDocumento">
+                <br><br><!--este input es tipo CHECKBOX, el cual este puede elergir todos los que quieras-->
+                <label for="RepasoAceptar">Acepto todo sin leer nada:</label>
+                <input type="checkbox" name="RepasoAceptar" id="RepasoAceptar">
+                <label for="RepasoAcepto">ACEPTO:</label>
+                <input type="checkbox" name="RepasoAcepto" id="RepasoAcepto">
+                <br><br><!--este input es tipo RADIO, el cual este solo puede elegir uno y como es racista deja a los demas sin marcar-->
+                <label for="RepasoCSS">CSS:</label>
+                <input type="radio" name="RepasoCSS" id="RepasoCSS">
+                <label for="RepasoHTML">HTML:</label>
+                <input type="radio" name="RepasoHTML" id="RepasoHTML">
+                <br><br>
+                <input type="button" value="Saluda"> <!--TODAVIA NO FUNCIONA POR QUE NO HEMOS DADO JAVASCRIPT ENTONCES SE DEJA ASI POR AHORA-->
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                <br><br>
+                <label for="area">Observaciones</label>
+                <br>
+                <textarea rows="10" name="rarea" id="rarea"></textarea>
+                <br>
+                <label for="rselect">Selecione</label>
+                <br>
+                <select name="rselect" id="rselect">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                </select>
+
+            </fieldset>
+        </form>
+    </body>
+</html>

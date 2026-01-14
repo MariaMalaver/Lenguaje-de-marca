@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Actividad13R2</title>
+    </head>
+    <body>
+        <H1>Rellena tu CV</H1>
+        <form id="form1" name="form1" action="cv.php" method="post">
+                <label for="RegistroNombre">Nombre</label> 
+                <br>
+                <input type="text" maxlength="10" title="Escriba tu nombre" name="RegistroNombre" id="RegistroNombre">
+                <br><br>
+                <label for="RegistroApellidos">Apellidos</label> 
+                <br>
+                <input type="text" maxlength="25" title="Escribe tus apellidos" name="RegistroApellidos" id="RegistroApellidos">
+                <br><br>
+                <label for="RegistroContrasena">Contraseña</label> 
+                <br>
+                <input maxlength="8" type="password" title="Escribe la contrasena" name="RegistroContrasena" id="RegistroContrasena">
+                <br><br>
+                <label for="RegistroDNI">DNI</label> 
+                <br>
+                <input type="text" maxlength="9" title="Escribe el DNI" name="RegistroDNI" id="RegistroDNI">
+                <br><br>
+                <label>Sexo</label>
+                <br>
+                <input type="radio" title="Clica tu sexo" name="RegistroHombre" id="RegistroHombre">
+                <label for="RegistroHombre">Hombre</label>
+                <br>
+                <input type="radio" title="Clica tu sexo" name="RegistroMujer" id="RegistroMujer">
+                <label for="RegistroMujer">Mujer</label>
+                <br><br>
+                <label for="RegistroFoto">Incluir foto:</label>
+                <input type="file" name="RegistroFoto" id="RegistroFoto">
+                <br><br>
+                <input type="checkbox" name="RegistroSuscribir" id="RegistroSuscribir">
+                <label for="RegistroSuscribir">Suscribeme al boletín de novedades:</label>
+                <br><br>
+                <input type="button" value="Guardar cambios">
+                <input type="reset" value="Borrar los datos introducidos">
+    </body>
+</html>
