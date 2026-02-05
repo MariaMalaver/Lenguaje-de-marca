@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio - 1º Clase CSS</title>
+        <style>
+            h1
+            {
+                color:pink;
+            }
+
+            h2 
+            {
+                color: rgb(205, 151, 255);
+            }
+
+            h1,h2
+            {
+                font-size: 40px;
+            }
+
+            h2.subrayado
+            {
+                text-decoration: underline;
+            }
+            
+            *.subrayado /*cualquier clase qeu lo tenga, este si se puede repetir las veces que queramos*/
+            {
+                text-decoration: underline;
+            }
+
+            #repetidor /* este no se puede repetir con otra etiqueta solo es de uno*/
+            {
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mar de cadiz</h1>
+        <h2>1 DAW</h2>
+        <h2>2 DAW</h2>
+        <h2 id="repetidor" class="subrayado">Repetidor</h2>
+    </body>
+</html>
