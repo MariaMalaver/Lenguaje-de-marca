@@ -29,7 +29,15 @@
                 text-decoration: underline;
             }
 
-            #repetidor /* este no se puede repetir con otra etiqueta solo es de uno*/
+            #repetidor /* este no se puede repetir con otra etiqueta solo es de uno, id*/
+            {
+                color: brown;
+            }
+            h2#repetidor
+            {
+                color: brown;
+            }
+            h2 h4 /* hijos */
             {
                 color: brown;
             }
@@ -38,7 +46,9 @@
     <body>
         <h1>Mar de cadiz</h1>
         <h2>1 DAW</h2>
-        <h2>2 DAW</h2>
+        <h2>2 DAW
+            <h4>2 DAW</h4>
+        </h2>
         <h2 id="repetidor" class="subrayado">Repetidor</h2>
     </body>
 </html>

@@ -1,0 +1,64 @@
+body
+{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h1#titulo-principal
+{
+    color: blue;
+    text-align: center;
+}
+p.intro
+{
+    color: gray;
+}
+p.texto-destacado
+{
+    font-weight:bold;
+}
+div.contenedor
+{
+    background-color: pink;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+div.contenedor > p
+{
+    color: blueviolet;
+}
+div.contenedor > samp
+{
+    color: blue;
+}
+ul > li.item
+{
+    font-size: 25px;
+}
+ul > li
+{
+    list-style: none;
+}
+ul > li.item-especial
+{
+    color: red;
+}
+ul#lista
+{
+    color: yellowgreen;
+}
+ul > li:nth-child(2)
+{
+    color: blue;
+}
+a
+{
+    color:blueviolet;
+    text-decoration: none;
+}
+a:hover
+{
+    color: red;
+}

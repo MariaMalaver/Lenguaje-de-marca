@@ -1,0 +1,98 @@
+body
+{
+    margin: 0px;
+}
+header.cabecera
+{
+    background-color: rgb(117, 37, 37);
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.cabecera > h1
+{
+    margin: 0px;
+    padding-top: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 10px;
+}
+.cabecera > p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: inline-block;
+    padding-left: 10px;
+}
+.menu
+{
+    background-color: lab(37.52% 58.84 44.38);
+    margin: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+}
+.menu > ul > li
+{
+    display: inline;
+}
+.menu > ul > li > a
+{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu > ul > li > a:hover
+{
+    background-color: rgb(255, 179, 179);
+    padding-bottom: 19px;
+    padding-top: 18px;
+}
+main
+{
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 4px dashed rgb(209, 209, 209);
+}
+main.contenedor
+{
+    padding: 20px;
+}
+.contenedor > .tabla-precios > h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.contenedor > .tabla-precios > table
+{
+    border-collapse: collapse;
+}
+.contenedor > .tabla-precios > table > thead > tr
+{
+    background-color: rgb(114, 27, 27);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    text-align: left;
+}
+.contenedor > .tabla-precios > table > thead > tr > th
+{
+    padding-right: 50px;
+}
+
+
+
+
+.pie > p
+{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
