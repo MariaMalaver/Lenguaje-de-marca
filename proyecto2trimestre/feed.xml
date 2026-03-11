@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+
+    <title>Noticias de Tecnología</title>
+    <link>https://noticias-tecnologia.com</link>
+    <description>Canal RSS con noticias sobre tecnología, programación y videojuegos.</description>
+    <copyright>By Maria Malaver González 1º DAW</copyright>
+
+    <item>
+        <title>Nuevo iPhone 20</title>
+        <link>https://noticias-tecnologia.com/iphone</link>
+        <description>Apple presenta su nuevo modelo de iPhone con mejoras en cámara y batería.</description>
+        <author>Maria Malaver González</author>
+        <category>Tecnología</category>
+        <pubDate>Martes, 10 Mar 2026</pubDate>
+    </item>
+
+    <item>
+        <title>Actualización importante de Windows</title>
+        <link>https://noticias-tecnologia.com/windows</link>
+        <description>Microsoft lanza una actualización que mejora la seguridad del sistema.</description>
+        <author>Maria Malaver González</author>
+        <category>Software</category>
+        <pubDate>Lunes, 9 Mar 2026</pubDate>
+    </item>
+
+    <item>
+        <title>Nuevas funciones en JavaScript</title>
+        <link>https://noticias-tecnologia.com/javascript</link>
+        <description>JavaScript incorpora nuevas herramientas para desarrolladores web.</description>
+        <author>Maria Malaver González </author>
+        <category>Programación</category>
+        <pubDate>Domingo, 8 Mar 2026</pubDate>
+    </item>
+
+    <item>
+        <title>Los videojuegos más esperados del año</title>
+        <link>https://noticias-tecnologia.com/videojuegos</link>
+        <description>Una lista de los lanzamientos más esperados para este año.</description>
+        <author>Maria Malaver González </author>
+        <category>Videojuegos</category>
+        <pubDate>Sabado, 7 Mar 2026</pubDate>
+    </item>
+
+    <item>
+        <title>Avances en inteligencia artificial</title>
+        <link>https://noticias-tecnologia.com/ia</link>
+        <description>La inteligencia artificial (IA) sigue evolucionando y llegando a más aplicaciones.</description>
+        <author>Maria Malaver González </author>
+        <category>IA</category>
+        <pubDate>Viernes, 6 Mar 2026</pubDate>
+    </item>
+
+    </channel>
+
+</rss>
