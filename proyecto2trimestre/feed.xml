@@ -3,8 +3,8 @@
 
 <channel>
 
-    <title>Noticias de Tecnología</title>
-    <link>https://noticias-tecnologia.com</link>
+    <title>Noticias de María</title>
+    <link>https://noticias-maria.com</link>
     <description>Canal RSS con noticias sobre tecnología, programación y videojuegos.</description>
     <copyright>By Maria Malaver González 1º DAW</copyright>
 
@@ -18,32 +18,36 @@
     </item>
 
     <item>
-        <title>Actualización importante de Windows</title>
-        <link>https://noticias-tecnologia.com/windows</link>
-        <description>Microsoft lanza una actualización que mejora la seguridad del sistema.</description>
+        <title>La nueva experiencia de uso de Copilot+ PC y Windows 11</title>
+        <link>https://news.microsoft.com/es-es/2024/10/01/la-nueva-experiencia-de-uso-de-copilot-pc-y-windows-11/</link>
+        <description>En una época en la que la Inteligencia Artificial (IA) está en boca de todos, Microsoft continúa con su apuesta por la innovación con la presentación de las próximas novedades de Copilot+ PC y Windows 11.</description>
         <author>Maria Malaver González</author>
         <category>Software</category>
-        <pubDate>Lunes, 9 Mar 2026</pubDate>
+        <pubDate>Martes, 1 Oct 2024</pubDate>
     </item>
 
     <item>
-        <title>Nuevas funciones en JavaScript</title>
-        <link>https://noticias-tecnologia.com/javascript</link>
-        <description>JavaScript incorpora nuevas herramientas para desarrolladores web.</description>
+        <title>ECMAScript 2025: todas las novedades y aplicaciones prácticas para impulsar tu código JavaScript</title>
+        <link>https://www.campusmvp.es/recursos/post/ecmascript-2025-todas-las-novedades-y-aplicaciones-practicas-para-impulsar-tu-codigo-javascript.aspx?srsltid=AfmBOopH-jO1Z7wefhEQma-XV6FILFwrZvQFfSCNKSUK5d7J3M14ov1R</link>
+        <description>Con el estándar ECMAScript 2025 llegan una serie de innovaciones fundamentales que redefinen el desarrollo con JavaScript. 
+                    Estas mejoras están diseñadas para optimizar la manipulación de datos, potenciar el rendimiento y ofrecer herramientas más sofisticadas 
+                    para la gestión de la asincronía y el trabajo con diversos tipos de datos. Te contamos todas las novedades y los casos prácticos donde puedes usarlas.</description>
         <author>Maria Malaver González </author>
         <category>Programación</category>
-        <pubDate>Domingo, 8 Mar 2026</pubDate>
-    </item>
+        <pubDate>Miércoles, 9 Jul 2025</pubDate>
+    </item> 
+
 
     <item>
-        <title>Los videojuegos más esperados del año</title>
-        <link>https://noticias-tecnologia.com/videojuegos</link>
-        <description>Una lista de los lanzamientos más esperados para este año.</description>
+        <title>Ranking mundial masculino de la FIFA 2025: España rebasa a Argentina en el 1° puesto; ve la lista completa</title>
+        <link>https://www.olympics.com/es/noticias/quien-lidera-ranking-fifa-tabla-actualizado</link>
+        <description>De manera periódica, el órgano rector del fútbol establece el orden de las mejores selecciones del mundo en la categoría varonil. 
+                    Revisa aquí quién lidera el Ranking FIFA masculino en 2025, cuál es el Top 20 y la tabla actualizada.</description>
         <author>Maria Malaver González </author>
         <category>Videojuegos</category>
-        <pubDate>Sabado, 7 Mar 2026</pubDate>
+        <pubDate>Lunes, 22 Dic 2025</pubDate>
     </item>
-
+    -- esta falta por cambiar --
     <item>
         <title>Avances en inteligencia artificial</title>
         <link>https://noticias-tecnologia.com/ia</link>
