@@ -3,7 +3,7 @@
 
 <channel>
 
-    <title>Noticias de María</title>
+    <title>Noticias de María</title> 
     <link>https://noticias-maria.com</link>
     <description>Canal RSS con noticias sobre tecnología, programación y videojuegos.</description>
     <copyright>By Maria Malaver González 1º DAW</copyright>
@@ -12,7 +12,7 @@
         <title>El iPhone 18 Pro iba a ser el principio del fin de la Isla Dinámica. Los planes de Apple acaban de sufrir un fuerte frenazo</title>
         <link>https://www.applesfera.com/rumores/iphone-18-pro-iba-a-ser-principio-fin-isla-dinamica-planes-apple-acaban-sufrir-fuerte-frenazo</link>
         <description>Apple va a reciclar parte del chasis de la generación anterior en el iPhone 18 Pro. El motivo es una bestia de 2 nanómetros</description>
-        <author>Maria Malaver González</author>
+        <author>Guille Lomener</author>
         <category>Tecnología</category>
         <pubDate>Jueves, 12 Mar 2026</pubDate>
     </item>
@@ -21,7 +21,7 @@
         <title>La nueva experiencia de uso de Copilot+ PC y Windows 11</title>
         <link>https://news.microsoft.com/es-es/2024/10/01/la-nueva-experiencia-de-uso-de-copilot-pc-y-windows-11/</link>
         <description>En una época en la que la Inteligencia Artificial (IA) está en boca de todos, Microsoft continúa con su apuesta por la innovación con la presentación de las próximas novedades de Copilot+ PC y Windows 11.</description>
-        <author>Maria Malaver González</author>
+        <author>Microsoft Prensa</author>gh repo clone MariaMalaver/Lenguaje-de-marca
         <category>Software</category>
         <pubDate>Martes, 1 Oct 2024</pubDate>
     </item>
@@ -32,7 +32,7 @@
         <description>Con el estándar ECMAScript 2025 llegan una serie de innovaciones fundamentales que redefinen el desarrollo con JavaScript. 
                     Estas mejoras están diseñadas para optimizar la manipulación de datos, potenciar el rendimiento y ofrecer herramientas más sofisticadas 
                     para la gestión de la asincronía y el trabajo con diversos tipos de datos. Te contamos todas las novedades y los casos prácticos donde puedes usarlas.</description>
-        <author>Maria Malaver González </author>
+        <author>José Manuel Alarcón</author>
         <category>Programación</category>
         <pubDate>Miércoles, 9 Jul 2025</pubDate>
     </item> 
@@ -43,18 +43,18 @@
         <link>https://www.olympics.com/es/noticias/quien-lidera-ranking-fifa-tabla-actualizado</link>
         <description>De manera periódica, el órgano rector del fútbol establece el orden de las mejores selecciones del mundo en la categoría varonil. 
                     Revisa aquí quién lidera el Ranking FIFA masculino en 2025, cuál es el Top 20 y la tabla actualizada.</description>
-        <author>Maria Malaver González </author>
+        <author>Santiago Polar</author>
         <category>Videojuegos</category>
         <pubDate>Lunes, 22 Dic 2025</pubDate>
     </item>
-    -- esta falta por cambiar --
+
     <item>
-        <title>Avances en inteligencia artificial</title>
-        <link>https://noticias-tecnologia.com/ia</link>
-        <description>La inteligencia artificial (IA) sigue evolucionando y llegando a más aplicaciones.</description>
-        <author>Maria Malaver González </author>
+        <title>El avance de la inteligencia artificial autónoma revoluciona la automatización en el entorno corporativo</title>
+        <link>https://www.infobae.com/tecno/2026/03/11/el-avance-de-la-inteligencia-artificial-autonoma-revoluciona-la-automatizacion-en-el-entorno-corporativo/</link>
+        <description>Herramientas digitales especializadas optimizan los procesos diarios y promueven nuevos perfiles profesionales en el ecosistema laboral</description>
+        <author>Opy Morales</author>
         <category>IA</category>
-        <pubDate>Viernes, 6 Mar 2026</pubDate>
+        <pubDate>Miercoles, 11 Mar 2026</pubDate>
     </item>
 
     </channel>
