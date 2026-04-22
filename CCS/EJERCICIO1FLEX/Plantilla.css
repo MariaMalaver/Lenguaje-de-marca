@@ -1,0 +1,16 @@
+.contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul.contenedor li
+{
+    background-color: #00ffdd;
+    list-style: none;
+    margin-right: 2px;
+    width: 125px;
+    padding: 10px 2px 10px 2px;
+ 
+}

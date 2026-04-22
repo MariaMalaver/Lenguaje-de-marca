@@ -1,0 +1,24 @@
+.contenedor
+{
+    display: flex; /* Establece el contenedor como un contenedor flexbox */
+    
+    flex-direction: row; /* Cambia el orden de los elementos a la inversa */
+        /* flex-direction: column;  Cambia el orden de los elementos a la normal */
+        /* flex-direction: column-reverse; Cambia el orden de los elementos a la horizontal */
+
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+        /* justify-content: flex-start;  Alinea los elementos al inicio del contenedor */
+        /* justify-content: flex-end; Alinea los elementos al final del contenedor */
+        /* HAY MAS....*/
+
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+        /* align-items: flex-start; Alinea los elementos verticalmente al inicio del contenedor */
+        /* align-items: flex-end; Alinea los elementos verticalmente al final del contenedor */
+        /* HAY MAS....*/
+
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben en una sola línea */
+        /* flex-wrap: nowrap; Evita que los elementos se envuelvan, forzándolos a permanecer en una sola línea */
+        /* flex-wrap: wrap-reverse; Permite que los elementos se envuelvan a la siguiente línea pero en orden inverso */
+
+    
+}
