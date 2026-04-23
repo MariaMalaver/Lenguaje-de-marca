@@ -1,0 +1,110 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(204, 204, 204);
+}
+
+.cabecera
+{
+    background-color: #3f495e;
+    color: white;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera h1
+{
+    margin: 0px;
+}
+
+.menu
+{
+    background-color: #23cea9;
+}
+
+nav ul
+{
+    margin-top: 0px;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:10px 0;
+}
+nav a
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+.contenedor
+{
+    display: flex;
+    padding: 20px;
+    margin: 25px 40px 25px 40px;
+    background-color: white;
+}
+
+.contenedor.cursos
+{
+    flex: 1;
+    padding: 20px;
+}
+
+.cursos h2
+{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 0px;
+}
+/*
+div .contenedor-cursos
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+
+div.tarjeta
+{
+    background-color: rgb(231, 230, 230);
+    border: 1px solid #23cea9;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.contenedor-cursos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+*/
+
+.tarjeta{
+    flex: 0;
+    min-height: 150px;
+    border: 1px solid #2fc7ad;
+    border-radius: 6px;
+    padding: 20px;
+    background: #dfe3e3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjeta h3{
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.tarjeta p{
+    font-size: 20px;
+}
