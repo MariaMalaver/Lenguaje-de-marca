@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 1</title>
+    <link rel="stylesheet" href="practica1.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Básica</h1>
+
+        <div class="operando">
+            <label id="operando1">Operando 1</label>
+            <input type="text" id="operando1" placeholder="Número 1">
+        </div>
+
+
+        <div class="operando">
+            <label id="operando2">Operando 2</label>
+            <input type="text" id="operando2" placeholder="Número 2">
+        </div>
+
+        <div class="botones">
+            <button onclick="calcular('+')">+</button>
+            <button onclick="calcular('-')">-</button>
+            <button onclick="calcular('*')">*</button>
+            <button onclick="calcular('/')">/</button>
+        </div>
+
+
+        <div class="resultado" id="resultado">
+            Introduce dos números y selecciona una operación.
+        </div>
+
+        <script src="practica1.js"></script>
+    </div>
+</body>
+</html>

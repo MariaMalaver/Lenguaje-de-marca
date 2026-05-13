@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculadora 
+{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 300px;
+    text-align: center;
+}
+
+.calculadora h1 
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 22px;
+    color: #000000;
+}
+  
+.operando 
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.operando label 
+{
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000000;
+}
+
+        
+.operando input 
+{
+    flex: 1;
+    padding: 9px 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.botones 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.botones button 
+{
+    width: 55px;
+    height: 55px;
+    background-color: #aaaaaa;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.botones button:hover
+{
+    background-color: #888888;
+}
+
+.resultado 
+{
+    border: 2px dashed #aaaaaa;
+    background-color: #dddddd;
+    border-radius: 8px;
+    border-color: #2c2c2c;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    min-height: 50px;
+}
+
