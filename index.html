@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Máquina de Compatibilidad Zodiacal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Estrellas de fondo -->
+  <div class="stars" id="stars"></div>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/120px-Yin_yang.svg.png"
+             alt="zodiaco" class="zodiac-wheel" onerror="this.style.display='none'" />
+        <span class="header-icon-fallback">☯</span>
+      </div>
+      <div class="header-text">
+        <h1>MÁQUINA DE COMPATIBILIDAD ZODIACAL <span class="sparkle">✦</span></h1>
+        <p class="subtitle">Descubre qué tan compatibles sois los astros ⭐</p>
+      </div>
+    </header>
+
+    <!-- SELECTS -->
+    <div class="selects-section">
+      <div class="select-group">
+        <label for="signo1">Signo 1</label>
+        <div class="select-wrapper">
+          <select id="signo1">
+            <option value="">Selecciona...</option>
+            <option value="aries">♈ Aries</option>
+            <option value="tauro">♉ Tauro</option>
+            <option value="geminis">♊ Géminis</option>
+            <option value="cancer">♋ Cáncer</option>
+            <option value="leo">♌ Leo</option>
+            <option value="virgo">♍ Virgo</option>
+            <option value="libra">♎ Libra</option>
+            <option value="escorpio">♏ Escorpio</option>
+            <option value="sagitario">♐ Sagitario</option>
+            <option value="capricornio">♑ Capricornio</option>
+            <option value="acuario">♒ Acuario</option>
+            <option value="piscis">♓ Piscis</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="select-group">
+        <label for="signo2">Signo 2</label>
+        <div class="select-wrapper">
+          <select id="signo2">
+            <option value="">Selecciona...</option>
+            <option value="aries">♈ Aries</option>
+            <option value="tauro">♉ Tauro</option>
+            <option value="geminis">♊ Géminis</option>
+            <option value="cancer">♋ Cáncer</option>
+            <option value="leo">♌ Leo</option>
+            <option value="virgo">♍ Virgo</option>
+            <option value="libra">♎ Libra</option>
+            <option value="escorpio">♏ Escorpio</option>
+            <option value="sagitario">♐ Sagitario</option>
+            <option value="capricornio">♑ Capricornio</option>
+            <option value="acuario">♒ Acuario</option>
+            <option value="piscis">♓ Piscis</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTÓN -->
+    <button class="btn-calcular" id="btn-calcular" onclick="calcular()">
+      Calcular compatibilidad ✨
+    </button>
+
+    <!-- ERROR -->
+    <p class="error-msg" id="error"></p>
+
+    <!-- RESULTADO -->
+    <div class="result-card" id="result-card">
+      <div class="result-inner">
+        <div class="result-sign left" id="signo1-icon"></div>
+        <div class="result-center">
+          <div class="porcentaje" id="porcentaje-num">0%</div>
+          <div class="result-msg" id="result-msg"></div>
+          <div class="result-extra" id="result-extra"></div>
+        </div>
+        <div class="result-sign right" id="signo2-icon"></div>
+      </div>
+      <div class="shooting-star">💫⭐</div>
+    </div>
+
+    <!-- TODOS LOS SIGNOS -->
+    <div class="all-signs-section">
+      <p class="all-signs-title">TODOS LOS SIGNOS DEL ZODIACO</p>
+      <div class="all-signs-grid">
+        <div class="sign-item"><span>♈</span><small>Aries</small></div>
+        <div class="sign-item"><span>♉</span><small>Tauro</small></div>
+        <div class="sign-item"><span>♊</span><small>Géminis</small></div>
+        <div class="sign-item"><span>♋</span><small>Cáncer</small></div>
+        <div class="sign-item"><span>♌</span><small>Leo</small></div>
+        <div class="sign-item"><span>♍</span><small>Virgo</small></div>
+        <div class="sign-item"><span>♎</span><small>Libra</small></div>
+        <div class="sign-item"><span>♏</span><small>Escorpio</small></div>
+        <div class="sign-item"><span>♐</span><small>Sagitario</small></div>
+        <div class="sign-item"><span>♑</span><small>Capricornio</small></div>
+        <div class="sign-item"><span>♒</span><small>Acuario</small></div>
+        <div class="sign-item"><span>♓</span><small>Piscis</small></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

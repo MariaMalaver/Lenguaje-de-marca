@@ -14,8 +14,8 @@ function calcular(operacion)
 
     if (operacion == "+") 
     {
-        document.getElementById("numero2").value = parseFloat(num1) + parseFloat(num2);
-    } 
+        res = num1 + num2;
+    }
     else if (operacion == "-") 
     {
         res = num1 - num2;

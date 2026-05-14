@@ -1,0 +1,106 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-image: url("espacio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px 10px;
+}
+
+#zodiaco {
+    width: 150px;
+    height: auto;
+}
+
+.contenedor h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 20px;
+}
+
+.primer-signo,
+.segundo-signo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 20px;
+    font-size: 16px;
+}
+
+select {
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+select option {
+    background: #1a1a2e;
+    color: white;
+}
+
+/* ---- BOTÓN ---- */
+.calcular {
+    margin: 20px;
+}
+
+.calcular button {
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: rgba(120, 50, 200, 0.7);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.calcular button:hover {
+    background: rgba(160, 80, 255, 0.9);
+}
+
+/* ---- DIV RESULTADO ---- */
+.resultado {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: none; /* se muestra desde JS */
+}
+
+/* ---- SELECTS en fila y centrados ---- */
+.seccion-selects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.primer-signo,
+.segundo-signo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+}
